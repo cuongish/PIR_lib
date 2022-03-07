@@ -1,0 +1,32 @@
+attrs==21.4.0
+    # via pytest
+certifi==2021.10.8
+    # via requests
+charset-normalizer==2.0.12
+    # via requests
+coverage==6.3.2
+    # via -r requirements/test-requirements.in
+idna==3.3
+    # via requests
+iniconfig==1.1.1
+    # via pytest
+packaging==21.3
+    # via pytest
+pluggy==1.0.0
+    # via pytest
+py==1.11.0
+    # via pytest
+pyparsing==3.0.7
+    # via packaging
+pytest==7.0.1
+    # via -r requirements/test-requirements.in
+requests==2.27.1
+    # via responses
+responses==0.18.0
+    # via -r requirements/test-requirements.in
+tomli==2.0.1
+    # via pytest
+urllib3==1.26.8
+    # via
+    #   requests
+    #   responses

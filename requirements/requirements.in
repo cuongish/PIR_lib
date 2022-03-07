@@ -1,0 +1,6 @@
+fastapi[all]
+typing
+uvicorn
+docker
+SQLAlchemy
+psycopg2-binary
