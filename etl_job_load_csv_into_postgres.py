@@ -86,6 +86,7 @@ def get_db():
 
 
 def load_csv(sql_query: str, db: sqlalchemy.orm.Session) -> List[_schemas.Contact]:
+    # TODO FIXME
     db.query(sql_query)
     db.commit()
     db.refresh()
