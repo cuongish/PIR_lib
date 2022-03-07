@@ -55,4 +55,5 @@ source venv/bin/activate
 
 ### Improvement TODO:
 
-- 
+- Add authorization token for API calls.
+- Add contact on `update_contact` if `id` exists on db
